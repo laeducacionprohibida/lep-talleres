@@ -6,220 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="format-detection" content="telephone=no" />
     <!-- disable auto telephone linking in iOS -->
-    <title>Calendario de Actividades - La Educación Prohibida</title>
-    <style type="text/css">/* RESET STYLES */
-        @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
-    @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
-    body {
-		padding: 60px 0px;
-		background-color: rgb(220, 220, 220);
-	}
-    
-    .event-list {
-		list-style: none;
-		margin: 0px;
-		padding: 0px;
-	}
-	.event-list > li {
-		background-color: rgb(255, 255, 255);
-		box-shadow: 0px 0px 5px rgb(51, 51, 51);
-		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
-		padding: 0px;
-		margin: 0px 0px 20px;
-	}
-	.event-list > li > time {
-		display: inline-block;
-		width: 100%;
-		color: rgb(255, 255, 255);
-		background-color: #205478;
-/* 		padding: 0px; */
-		text-align: center;
-		text-transform: uppercase;
-	}
-	.event-list > li:nth-child(even) > time {
-		background-color: #719ab7;
-	}
-	.event-list > li > time > span {
-		display: none;
-	}
-	.event-list > li > time > .day {
-		display: block;
-		font-size: 56pt;
-		font-weight: 100;
-		line-height: 1;
-	}
-	.event-list > li time > .month {
-		display: block;
-		font-size: 24pt;
-		font-weight: 900;
-		line-height: 1;
-	}
-	.event-list > li > img {
-		width: 100%;
-	}
-	.event-list > li > .info {
-		padding-top: 5px;
-		text-align: center;
-	}
-	.event-list > li > .info > .title {
-		font-size: 17pt;
-		font-weight: 700;
-		margin: 0px;
-	}
-	.event-list > li > .info > .desc {
-		font-size: 13pt;
-		font-weight: 300;
-		margin: 0px;
-		text-align: left;
-	}
-        .event-list > li > .info > .auth {
-		font-size: 10pt;
-		font-weight: 300;
-		margin: 0px;
-		font-style: italic;
-		text-align: left;
-	}
-	.event-list > li > .info > ul,
-	.event-list > li > .social > ul {
-		display: table;
-		list-style: none;
-		margin: 10px 0px 0px;
-		padding: 0px;
-		width: 100%;
-		text-align: center;
-	}
-	.event-list > li > .social > ul {
-		margin: 0px;
-	}
-	.event-list > li > .info > ul > li,
-	.event-list > li > .social > ul > li {
-		display: table-cell;
-		cursor: pointer;
-		color: rgb(30, 30, 30);
-		font-size: 11pt;
-		font-weight: 300;
-        padding: 3px 0px;
-	}
-    .event-list > li > .info > ul > li > a {
-		display: block;
-		width: 100%;
-		color: rgb(30, 30, 30);
-		text-decoration: none;
-	} 
-    .event-list > li > .social > ul > li {    
-        padding: 0px;
-    }
-    .event-list > li > .social > ul > li > a {
-        padding: 3px 0px;
-	} 
-	.event-list > li > .info > ul > li:hover,
-	.event-list > li > .social > ul > li:hover {
-		color: rgb(30, 30, 30);
-		background-color: rgb(200, 200, 200);
-	}
-	.facebook a,
-	.twitter a,
-	.google-plus a {
-		display: block;
-		width: 100%;
-		color: rgb(75, 110, 168) !important;
-	}
-	.twitter a {
-		color: rgb(79, 213, 248) !important;
-	}
-	.google-plus a {
-		color: rgb(221, 75, 57) !important;
-	}
-	.facebook:hover a {
-		color: rgb(255, 255, 255) !important;
-		background-color: rgb(75, 110, 168) !important;
-	}
-	.twitter:hover a {
-		color: rgb(255, 255, 255) !important;
-		background-color: rgb(79, 213, 248) !important;
-	}
-	.google-plus:hover a {
-		color: rgb(255, 255, 255) !important;
-		background-color: rgb(221, 75, 57) !important;
-	}
-
-	@media (min-width: 768px) {
-		.event-list > li {
-			position: relative;
-			display: block;
-			width: 100%;
-			height: 120px;
-			padding: 0px;
-		}
-		.event-list > li > time,
-		.event-list > li > img  {
-			display: inline-block;
-		}
-		.event-list > li > time,
-		.event-list > li > img {
-			width: 120px;
-			float: left;
-		}
-		.event-list > li > .info {
-			background-color: rgb(245, 245, 245);
-			overflow: hidden;
-		}
-		.event-list > li > time,
-		.event-list > li > img {
-			width: 120px;
-			height: 120px;
-			padding: 0px;
-			margin: 0px;
-		}
-		.event-list > li > .info {
-			position: relative;
-			height: 115px;
-			text-align: left;
-			padding-right: 20px;
-		}	
-		.event-list > li > .info > .title, 
-		.event-list > li > .info > .desc {
-			padding: 0px 10px;
-		}
-                .event-list > li > .info > .auth {
-			padding: 6px 10px;
-		}
-		.event-list > li > .info > ul {
-			position: absolute;
-			left: 0px;
-			bottom: 0px;
-		}
-		.event-list > li > .social {
-			position: absolute;
-			top: 0px;
-			right: 0px;
-			display: block;
-			width: 40px;
-		}
-        .event-list > li > .social > ul {
-            border-left: 1px solid rgb(230, 230, 230);
-        }
-		.event-list > li > .social > ul > li {			
-			display: block;
-            padding: 0px;
-		}
-		.event-list > li > .social > ul > li > a {
-			display: block;
-			width: 40px;
-			padding: 10px 0px 9px;
-		}
-	}
-    
-    
-    
-    
-    
+    <title>CABA 2018 - Seminario Taller "Introducción a la Educación
+      Alternativa"</title>
+      <style type="text/css">/* RESET STYLES */
 			html { background-color:#E1E1E1; margin:0; padding:0; }
 			body, #bodyTable, #bodyCell, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;font-family:Helvetica, Arial, "Lucida Grande", sans-serif;}
 			table{border-collapse:collapse;}
 			table[id=bodyTable] {width:100%!important;margin:auto;max-width:500px!important;color:#7A7A7A;font-weight:normal;}
 			img, a img{border:0; outline:none; text-decoration:none;height:auto; line-height:100%;}
-			a {text-decoration:none !important;border-bottom: 0px solid;    color: #5F5F5F;}
+			a {text-decoration:none !important;border-bottom: 1px solid;}
 			h1, h2, h3, h4, h5, h6{color:#5F5F5F; font-weight:normal; font-family:Helvetica; font-size:20px; line-height:125%; text-align:Left; letter-spacing:normal;margin-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;}
 
 			/* CLIENT-SPECIFIC STYLES */
@@ -228,7 +23,7 @@
 			table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up. */
 			#outlook a{padding:0;} /* Force Outlook 2007 and up to provide a "view in browser" message. */
 			img{-ms-interpolation-mode: bicubic;display:block;outline:none; text-decoration:none;} /* Force IE to smoothly render resized images. */
-			body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
+			body, table, td, p, a, li, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; font-weight:normal!important;} /* Prevent Windows- and Webkit-based mobile platforms from changing declared text sizes. */
 			.ExternalClass td[class="ecxflexibleContainerBox"] h3 {padding-top: 10px !important;} /* Force hotmail to push 2-grid sub headers down */
 
 			/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
@@ -313,13 +108,6 @@
 				table[class="emailButton"]{width:100% !important;}
 				td[class="buttonContent"]{padding:0 !important;}
 				td[class="buttonContent"] a{padding:15px !important;}
-				
-				
-				.event-list > li > .info > .title {
-    font-size: 13pt;
-    font-weight: 700;
-    margin: 0px;
-}
 
 			}
 
@@ -412,7 +200,8 @@
                                                 cellpadding="0" border="0" width="100%">
                                                 <tbody>
                                                   <tr>
-                                                    <td class="textContent" align="left"><!-- CONTENT // --><br />
+                                                    <td class="textContent" align="left"><!-- CONTENT // -->
+                                                      <br />
                                                     </td>
                                                   </tr>
                                                 </tbody>
@@ -438,7 +227,8 @@
 							The table "emailBody" is the email's container.							Its width can be set to 100% for a color band							that spans the width of the page.						-->
               <table id="emailBody" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF"
                 width="500">
-               <!-- MODULE ROW // -->
+                <!-- MODULE ROW // -->
+                <tbody>
                   <tr>
                     <td valign="top" align="center"><!-- CENTERING TABLE // -->
                       <table cellspacing="0" cellpadding="0" border="0" width="100%">
@@ -456,8 +246,8 @@
                                         <tbody>
                                           <tr>
                                             <td class="imageContent" valign="top"><img
-                                                alt="Text" class="flexibleImage"
-                                                src="images/banner-formacion.png" style="max-width: 500px; width: 500px; display: block; height: 178px;"
+                                                class="flexibleImage" src="images/banner1.png"
+                                                style="max-width: 500px; width: 500px; display: block; "
                                                 title="Text" /></td>
                                           </tr>
                                         </tbody>
@@ -485,243 +275,62 @@
                                 <tbody>
                                   <tr>
                                     <td class="flexibleContainerCell" width="500"
-                                      valign="top">
-                                      
-                                      <div class="container">
-		<div class="row">
-			<div class="[ col-xs-12 col-sm-offset-2 col-sm-8 ]">
-				<ul class="event-list">
-									
-					<li>
-						<time datetime="2017-01-13">
-							<span class="day">15</span>
-							<span class="month">Feb</span>
-							<span class="year">2018</span>
-						</time>
-						<div class="info">
-							<h2 class="title"><a class="boton" href="ezeiza/index.html">Pedagogías alternativas en la primer infancia</a></h2>
-							<p class="desc">Ezeiza, Buenos Aires</p>
-							<p class="auth">Coordinada por Verónica Guzzo</p>
-						</div>
-					</li>
-					<li>
-						<time datetime="2017-01-13">
-							<span class="day">24</span>
-							<span class="month">Feb</span>
-							<span class="year">2018</span>
-						</time>
-						<div class="info">
-							<h2 class="title"><a class="boton" href="rosario/index.html">Introducción a la Educación Alternativa</a></h2>
-							<p class="desc">Rosario</p>
-							<p class="auth">Coordinada por German Doin</p>
-						</div>
-					</li>
-
-										<li>
-						<time datetime="2017-01-13">
-							<span class="day">3</span>
-							<span class="month">Mar</span>
-							<span class="year">2018</span>
-						</time>
-						<div class="info">
-							<h2 class="title"><a class="boton" href="miramar/index.html">Qué es la Educación Alternativa</a></h2>
-							<p class="desc">Miramar</p>
-							<p class="auth">Coordinada por German Doin</p>
-						</div>
-					</li>
-
-				</ul>
-			</div>
-		</div>
-	</div>
-
-                                      
-                                      </td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <!-- // FLEXIBLE CONTAINER --></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <!-- // CENTERING TABLE --></td>
-                  </tr>
-                  <!-- // MODULE ROW -->
-                  
-                  
-                  
-                  
-                  
-                  <!-- MODULE ROW // -->
-					<tr>
-						<td align="center" valign="top"><!-- CENTERING TABLE // -->
-						<table cellspacing="0" cellpadding="0" border="0" width="100%">
-							<tbody>
-								<tr>
-									<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
-									<table class="flexibleContainer" cellspacing="0" cellpadding="0" border="0" width="500">
-										<tbody>
-											<tr>
-												<td class="flexibleContainerCell" align="center" valign="top" width="500"><!-- CONTENT TABLE // -->
-												<table cellspacing="0" cellpadding="0" border="0" width="100%">
-													<tbody>
-														<tr>
-															<td class="imageContent" valign="top"><img alt="Text" class="flexibleImage" src="images/banner-6.png" style="max-width: 500px; width: 500px; display: block;" title="Text"></td>
-														</tr>
-													</tbody>
-												</table>
-												<!-- // CONTENT TABLE --></td>
-											</tr>
-										</tbody>
-									</table>
-									<!-- // FLEXIBLE CONTAINER --></td>
-								</tr>
-							</tbody>
-						</table>
-						<!-- // CENTERING TABLE --></td>
-					</tr>
-					<!-- // MODULE ROW -->
-                  
-                  
-                  
-                  
-                  
-                  <!-- MODULE ROW // --><!--  The "mc:hideable" is a feature for MailChimp which allows
-								you to disable certain row. It works perfectly for our row structure.
-								http://kb.mailchimp.com/article/template-language-creating-editable-content-areas/
-							-->
-					<tr mc:hideable="">
-						<td align="center" valign="top"><!-- CENTERING TABLE // -->
-						<table cellspacing="0" cellpadding="0" border="0" width="100%">
-							<tbody>
-								<tr>
-									<td align="center" valign="top"><!-- FLEXIBLE CONTAINER // -->
-									<table class="flexibleContainer" cellspacing="0" cellpadding="30" border="0" width="500">
-										<tbody>
-											<tr>
-												<td class="flexibleContainerCell" valign="top" width="500"><!-- CONTENT TABLE // -->
-												<table cellspacing="0" cellpadding="0" border="0" width="100%">
-													<tbody>
-														<tr>
-															<td class="textContent" valign="top">
-															<h3 mc:edit="header" style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Talleres que realizamos</h3>
-
-															<div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Más alla de los talleres agendados actualmente realizamos las siguientes propuestas de formación, encuentro e intercambio:															</div>
-
-
-															
-															                                                <div id="magicdomid54">
-                                                  <ul class="list-bullet1">
-                                                    <li><span class="author-a-z79zz122zz72zz80z9z78zkz87zz86zgpkz78zwz77zz75z">Taller "Introducción a la Educación Alternativa"</span></li>
-                                                    <li><span class="author-a-z79zz122zz72zz80z9z78zkz87zz86zgpkz78zwz77zz75z"><a href="intensivo/index.html">Taller Intensivo "Qué es la Educación Alternativa"</a></span></li>
-                                                    <li><span class="author-a-z79zz122zz72zz80z9z78zkz87zz86zgpkz78zwz77zz75z">Taller "Pedagogías Alternativas en la Primer Infancia"</span></li>
-                                                     <li><span class="author-a-z79zz122zz72zz80z9z78zkz87zz86zgpkz78zwz77zz75z"><a href="protagonista/index.html">Taller "Ser el protagonista de tu educación"</a></span></li>
-                                                      <li><span class="author-a-z79zz122zz72zz80z9z78zkz87zz86zgpkz78zwz77zz75z"><a href="integral/index.html">Taller "Diseño de experiencias educativas alternativas"</a></span></li>
-                                                       <li><span class="author-a-z79zz122zz72zz80z9z78zkz87zz86zgpkz78zwz77zz75z"><a href="desaprender/index.html">Retiro vivencial "DesAprender"</a></span></li>
-                                                  </ul>
-                                                </div>
-							<div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;"><br>
-                                                                                            Para cualquier consulta escribinos a&nbsp;<a href="mailto:taller@educacionprohibida.com?subject=Consulta">taller@educacionprohibida.com</a></div>							
-															
-															</td>
-														</tr>
-													</tbody>
-												</table>
-												<!-- // CONTENT TABLE --></td>
-											</tr>
-										</tbody>
-									</table>
-									<!-- // FLEXIBLE CONTAINER --></td>
-								</tr>
-							</tbody>
-						</table>
-						<!-- // CENTERING TABLE --></td>
-					</tr>
-					<!-- // MODULE ROW -->
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                 <!-- MODULE ROW // -->
-                  <tr>
-                    <td valign="top" align="center"><!-- CENTERING TABLE // -->
-                      <table cellspacing="0" cellpadding="0" border="0" width="100%">
-                        <tbody>
-                          <tr>
-                            <td valign="top" align="center"><!-- FLEXIBLE CONTAINER // -->
-                              <table class="flexibleContainer" cellspacing="0" cellpadding="0"
-                                border="0" width="500">
-                                <tbody>
-                                  <tr>
-                                    <td class="flexibleContainerCell" width="500"
                                       valign="top"><!-- CONTENT TABLE // -->
                                       <table cellspacing="0" cellpadding="0" border="0"
-                                        width="100%" align="left">
+                                        width="100%">
                                         <tbody>
                                           <tr>
-                                            <td class="flexibleContainerBox" style="background-color:#204a87;"
-                                              valign="top" align="right">
-                                              <table style="max-width:100%;" cellspacing="0"
-                                                cellpadding="30" border="0" width="100%">
-                                                <tbody>
-                                                  <tr>
-                                                    <td class="textContent" align="left">
-                                                      <div style="text-align:justify;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">Desde
-                                                        2012 dedicamos nuestro
-                                                        tiempo y energía a la
-                                                        coordinación global de <a
-                                                          href="http://www.reevo.org/">Reevo</a>,
-                                                        espacio desde el que
-                                                        promovemos encuentros de
-                                                        educaciones alternativas
-                                                        y sus procesos. Las
-                                                        actividades de Reevo en
-                                                        todo Latinoamérica y
-                                                        España no tienen costo
-                                                        de acceso y se sostienen
-                                                        con impulsos
-                                                        autogestivos.</div>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                            </td>
-                                            <td class="flexibleContainerBox" style="background-color:#204a87;"
-                                              valign="top" align="right">
-                                              <table class="flexibleContainerBoxNext"
-                                                style="max-width:100%;" cellspacing="0"
-                                                cellpadding="30" border="0" width="100%">
-                                                <tbody>
-                                                  <tr>
-                                                    <td class="textContent" align="left">
-                                                      <div style="text-align:justify;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#FFFFFF;line-height:135%;">Esta
-                                                        es una de 
-                                                        las instancias en que
-                                                        compartimos un taller 
-                                                        como una iniciativa
-                                                        cooperativa que nos
-                                                        permita continuar
-                                                        sosteniendo distintas
-                                                        áreas y esfuerzos de
-                                                        Reevo, dónde seguimos
-                                                        buscando correr el
-                                                        límite de nuestra
-                                                        educación.</div>
-                                                    </td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
+                                            <td class="textContent" valign="top"><!--
+																						The "mc:edit" is a feature for MailChimp which allows																						you to edit certain row. It makes it easy for you to quickly edit row sections.																						http://kb.mailchimp.com/templates/code/create-editable-content-areas-with-mailchimps-template-language																					-->
+                                              <h3 mc:edit="header" style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:0;margin-bottom:3px;text-align:left;">Pago
+                                                Anticipado</h3>
+                                              <div mc:edit="body" style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:165%;">
+                                                <p>Para confirmar tu cupo en el
+                                                  taller necesitamos realices tu
+                                                  pago de forma anticipada hasta el Sábado 24 de Febrero. El costo del taller hasta esa fecha es de $1000.- Aquí nuestras
+                                                  formas de pago:</p>
+                                                <ul>
+                                                <li><strong><a href="http://mpago.la/c7PV"
+                                                        target="_blank">Pagar
+                                                        con MercadoPago</a> (tarjetas de crédito, en cuotas, pagofacil, etc.)</strong></li>
+                                                <li>
+                                                    <p><strong>Pagar via
+                                                        Transferencia o Depósito
+                                                        Bancario</strong></p>
+                                                    <ul>
+                                                      <li>Banco Frances</li>
+                                                      <li>CBU - Caja de Ahorro:
+                                                        0170140740000002440275</li>
+                                                      <li>Alias: GERMANDOIN</li>
+                                                      <li>Titular de la cuenta:
+                                                        CAMPOS GERMAN</li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                                
+                                              
+                                                <p>A partir del 24 de Febrero se puede abonar en efectivo directamente el día del taller, el precio será de $1250.</p>
+                                                
+                                              </div>
                                             </td>
                                           </tr>
                                         </tbody>
                                       </table>
-                                      <!-- // CONTENT TABLE --></td>
+                                      <table class="emailButton" style="background-color: #204a87ff;"
+                                        cellspacing="0" cellpadding="0" border="0"
+                                        width="50%">
+                                        <tbody>
+                                          <tr>
+                                            <td class="buttonContent" style="padding-top:15px;padding-bottom:15px;padding-right:15px;padding-left:15px;"
+                                              valign="middle" align="center"><a
+                                                href="https://evo.re/tallermiramar"
+                                                style="color:#FFFFFF;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:135%;"
+                                                target="_blank">Formulario de
+                                                Inscripción</a></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
                                   </tr>
                                 </tbody>
                               </table>
@@ -749,8 +358,8 @@
                                         <tbody>
                                           <tr>
                                             <td class="imageContent" valign="top"><img
-                                                alt="Text" class="flexibleImage"
-                                                src="images/banner-4.png" style="max-width: 500px; width: 500px; display: block; height: 186px;"
+                                                alt="" class="flexibleImage" src="images/banner7.png"
+                                                style="max-width: 500px; width: 499px; display: block; "
                                                 title="Text" /></td>
                                           </tr>
                                         </tbody>
@@ -765,53 +374,6 @@
                       </table>
                       <!-- // CENTERING TABLE --></td>
                   </tr>
-                  <!-- // MODULE ROW --><!-- MODULE ROW // -->
-                  <tr>
-                    <td valign="top" align="center"><!-- CENTERING TABLE // -->
-                      <table cellspacing="0" cellpadding="0" border="0" width="100%">
-                        <tbody>
-                          <tr>
-                            <td valign="top" align="center"><!-- FLEXIBLE CONTAINER // -->
-                              <table class="flexibleContainer" cellspacing="0" cellpadding="30"
-                                border="0" width="500">
-                                <tbody>
-                                  <tr>
-                                    <td class="flexibleContainerCell" width="500"
-                                      valign="top"><!-- CONTENT TABLE // -->
-                                      <table cellspacing="0" cellpadding="0" border="0"
-                                        width="100%" align="left">
-                                        <tbody>
-                                          <tr>
-                                            <td class="textContent" valign="top"><!--
-																						The "mc:edit" is a feature for MailChimp which allows																						you to edit certain row. It makes it easy for you to quickly edit row sections.																						http://kb.mailchimp.com/templates/code/create-editable-content-areas-with-mailchimps-template-language																					-->
-                                              <h3 mc:edit="header" style="color: rgb(95, 95, 95); line-height: 125%; font-family: Helvetica, Arial, sans-serif; font-size: 20px; font-weight: normal; margin-top: 0px; margin-bottom: 3px; text-align: center;">Organiza</h3>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td class="flexibleContainerBox" valign="top"
-                                              align="left"><a href="http://www.educacionprohibida.com/"
-                                                target="_blank"><img alt="Text"
-                                                  class="flexibleImage" src="images/logo1.png"
-                                                  style="max-width: 100%; float: left;"
-                                                  title="Text" width="210" /></a></td>
-                                            <td class="flexibleContainerBox"><br />
-                                            </td>
-                                            <td class="flexibleContainerBox"><br />
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                      <!-- // CONTENT TABLE --></td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <!-- // FLEXIBLE CONTAINER --></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <!-- // CENTERING TABLE --></td>
-                  </tr>
-                  <!-- // MODULE ROW -->
                 </tbody>
               </table>
               <!-- // END --><!-- EMAIL FOOTER // --><!--
@@ -838,15 +400,11 @@
                                         <tbody>
                                           <tr>
                                             <td bgcolor="#E1E1E1" valign="top">
-                                              <div style="display:none;font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
-                                                <div>Copyleft © 2017 <a href="http://www.educacionprohibida.com/"
+                                              <div style="font-family:Helvetica,Arial,sans-serif;font-size:13px;color:#828282;text-align:center;line-height:120%;">
+                                                <div>Copyleft © 2018 <a href="http://www.educacionprohibida.com/"
                                                     style="text-decoration:none;color:#828282;"
                                                     target="_blank"><span style="color:#828282;">La
                                                       Educación Prohibida</span></a></div>
-                                                <div>Si no quieres recibir más
-                                                  correos como este, puedes <a
-                                                    href="#" style="text-decoration:none;color:#828282;"
-                                                    target="_blank"><span style="color:#828282;">desuscribirte</span></a>.</div>
                                               </div>
                                             </td>
                                           </tr>
