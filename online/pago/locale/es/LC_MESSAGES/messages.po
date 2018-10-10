@@ -1,0 +1,1288 @@
+# Copyright (C) Reevo (http://reevo.org)
+# http://git.reevo.org/civicrm/reevo-donation-membership-form/
+# This file is distributed under the Affero GPL v3 License.
+# Franco Iacomella <franco@reevo.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-28 12:51-0300\n"
+"Language: es_AR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: funciones.php:340
+#, php-format
+msgid "Tarjeta de credito"
+msgstr "Tarjeta de credito"
+
+#: funciones.php:344 form.php:691
+#, php-format
+msgid "Transferencia bancaria"
+msgstr "Transferencia bancaria"
+
+#: funciones.php:370 funciones.php:406 form.php:448
+#, php-format
+msgid "Mensual"
+msgstr "Mensual"
+
+#: funciones.php:375 funciones.php:413 form.php:451
+#, php-format
+msgid "Única"
+msgstr "Única"
+
+#: funciones.php:441
+#, php-format
+msgid "email-notificacion-membresia-user"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacerte miembro de Reevo. En algunos días la misma será "
+"procesada por nuestro sistema de cobro mediante tarjetas de "
+"crédito y te informaremos al respecto.\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:444
+#, php-format
+msgid "email-notificacion-membresia-userorg"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarles que recibimos correctamente su "
+"solicitud de membresía colectiva a Reevo. En algunos días la misma será "
+"procesada por nuestro sistema de cobro mediante tarjetas de "
+"crédito y te informaremos al respecto.\n"
+"\n"
+"Los siguientes son los datos de su membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"  * Representante: %s \n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:445
+#, php-format
+msgid "email-notificacion-membresia-userorg-rep"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de membresía colectiva de %s, de la cual tu eres represenante. "
+"Este mismo correo fue enviado al e-mail de tu organización. En algunos días "
+"el pago de la membresía será procesada por nuestro sistema de cobros"
+"mediante tarjetas de crédito y te informaremos al respecto.\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:453
+#, php-format
+msgid "email-notificacion-membresia-user-2"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacerte miembro a Reevo. A continuación te indicamos los "
+"datos de la cuenta a donde realizar la transferencia bancaria:\n"
+"\n"
+"Banco: Banco de la Nación Argentina\n"
+"Sucursal: 1250 - Burzaco\n"
+"Titular: Redes de Pares Asociación Civil\n"
+"Tipo: Cuenta Corriente Especial en Pesos\n"
+"N° de cuenta: 6140503757\n"
+"C.B.U.: 01106141-40061405037576\n"
+"SWIFT: NACNARBA\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"A fin de simplificar el proceso y reducir costos, solicitamos que realices "
+"una transferencia por el total de la membresía anual que sería de u$d %s (el "
+"monto elegido por 12 meses). Después de realizar la transferencia envíanos "
+"el comprobante de la misma a esta misma casilla de correo. Luego de "
+"recibirla, activaremos tu membresía.\n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:456
+#, php-format
+msgid "email-notificacion-membresia-userorg-2"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarte que recibimos correctamente su "
+"solicitud de membresía a Reevo. A continuación les indicamos los datos de la "
+"cuenta a donde realizar la transferencia bancaria:\n"
+"\n"
+"Banco: Banco de la Nación Argentina\n"
+"Sucursal: 1250 - Burzaco\n"
+"Titular: Redes de Pares Asociación Civil\n"
+"Tipo: Cuenta Corriente Especial en Pesos\n"
+"N° de cuenta: 6140503757\n"
+"C.B.U.: 01106141-40061405037576\n"
+"SWIFT: NACNARBA\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"  * Representante: %s \n"
+"\n"
+"A fin de simplificar el proceso y reducir costos, solicitamos que realicen "
+"una transferencia por el total de la membresía anual que sería de u$d %s (el "
+"monto elegido por 12 meses). Después de realizar la transferencia envíenos "
+"el comprobante de la misma a esta misma casilla de correo. Luego de "
+"recibirla, activaremos su membresía.\n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:457
+#, php-format
+msgid "email-notificacion-membresia-userorg-rep-2"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de membresía colectiva de %s, de la cual tu eres representante. "
+"Este mismo correo fue enviado al e-mail de tu organización. A continuación "
+"te indicamos los datos de la cuenta a donde realizar la transferencia "
+"bancaria:\n"
+"\n"
+"Banco: Banco de la Nación Argentina\n"
+"Sucursal: 1250 - Burzaco\n"
+"Titular: Redes de Pares Asociación Civil\n"
+"Tipo: Cuenta Corriente Especial en Pesos\n"
+"N° de cuenta: 6140503757\n"
+"C.B.U.: 01106141-40061405037576\n"
+"SWIFT: NACNARBA\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"A fin de simplificar el proceso y reducir costos, solicitamos que realicen "
+"una transferencia por el total de la membresía anual que sería de u$d %s (el "
+"monto elegido por 12 meses). Después de realizar la transferencia envíenos "
+"el comprobante de la misma a esta misma casilla de correo. Luego de "
+"recibirla, activaremos su membresía.\n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:453
+#, php-format
+msgid "email-notificacion-membresia-user-3"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacerte miembro a Reevo. Al momento de pagar elegiste hacerlo por Paypal. Si por algún momento no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/paypal.php?val=%s&tipo=membresia\n"
+"\n"
+"No dudes en escribirnos ante cualquier duda o problema.\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:456
+#, php-format
+msgid "email-notificacion-membresia-userorg-3"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarte que recibimos correctamente su "
+"solicitud de membresía a Reevo. Al momento de pagar elegiste hacerlo por Paypal. Si por algún momento no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/paypal.php?val=%s&tipo=membresia\n"
+"\n"
+"No dudes en escribirnos ante cualquier duda o problema.\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:457
+#, php-format
+msgid "email-notificacion-membresia-userorg-rep-3"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de membresía colectiva de %s, de la cual tu eres representante. "
+"Este mismo correo fue enviado al e-mail de tu organización. Al momento de pagar elegiste hacerlo por Paypal. Si por algun motivo no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/paypal.php?val=%s&tipo=membresia\n"
+"\n"
+"No dudes en escribirnos ante cualquier duda o problema.\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+
+#: funciones.php:453
+#, php-format
+msgid "email-notificacion-membresia-user-4"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacerte miembro a Reevo. Al momento de pagar elegiste hacerlo con tarjeta de crédito a través de MercadoPago. Si por algún momento no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/mp.php?val=%s&tipo=membresia\n"
+"\n"
+"No dudes en escribirnos ante cualquier duda o problema.\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:456
+#, php-format
+msgid "email-notificacion-membresia-userorg-4"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarte que recibimos correctamente su "
+"solicitud de membresía a Reevo. Al momento de pagar elegiste hacerlo con tarjeta de crédito a través de MercadoPago. Si por algún momento no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/mp.php?val=%s&tipo=membresia\n"
+"\n"
+"No dudes en escribirnos ante cualquier duda o problema.\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:457
+#, php-format
+msgid "email-notificacion-membresia-userorg-rep-4"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de membresía colectiva de %s, de la cual tu eres representante. "
+"Este mismo correo fue enviado al e-mail de tu organización. Al momento de pagar elegiste hacerlo con tarjeta de crédito a través de MercadoPago. Si por algun motivo no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/mp.php?val=%s&tipo=membresia\n"
+"\n"
+"No dudes en escribirnos ante cualquier duda o problema.\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+
+#: funciones.php:467 funciones.php:494 funciones.php:496
+#, php-format
+msgid "¡Recibimos tu solicitud de membresía!"
+msgstr "¡Recibimos tu solicitud de membresía!"
+
+#: funciones.php:530
+#, php-format
+msgid "email-notificacion-donacion-user"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacer una donación a Reevo. En algunos días la misma será "
+"procesada por nuestro sistema de cobro mediante tarjetas de "
+"crédito y te informaremos al respecto.\n"
+"\n"
+"Los siguientes son los datos de tu donación:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:533
+#, php-format
+msgid "email-notificacion-donacion-userorg"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarles que recibimos correctamente su "
+"solicitud para hacer una donación a Reevo. En algunos días la misma será "
+"procesada por nuestro sistema de cobro mediante tarjetas de "
+"crédito y te informaremos al respecto.\n"
+"\n"
+"Los siguientes son los datos de su donación única:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"  * Representante: %s \n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:534
+#, php-format
+msgid "email-notificacion-donacion-userorg-rep"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de donación colectiva a nombre de %s, de la cual tu eres "
+"represenante. Este mismo correo fue enviado al e-mail de tu organización. En "
+"algunos días la donación será procesada por nuestro sistema de cobros"
+"mediante tarjetas de crédito y te informaremos al respecto.\n"
+"\n"
+"Los siguientes son los datos de tu donación:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:542
+#, php-format
+msgid "email-notificacion-donacion-user-2"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacer una donación a Reevo. A continuación te indicamos los "
+"datos de la cuenta a donde realizar la transferencia bancaria:\n"
+"\n"
+"Banco: Banco de la Nación Argentina\n"
+"Sucursal: 1250 - Burzaco\n"
+"Titular: Redes de Pares Asociación Civil\n"
+"Tipo: Cuenta Corriente Especial en Pesos\n"
+"N° de cuenta: 6140503757\n"
+"C.B.U.: 01106141-40061405037576\n"
+"SWIFT: NACNARBA\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"Después de realizar la transferencia envíanos el comprobante de la misma a "
+"esta misma casilla de correo.\n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:545
+#, php-format
+msgid "email-notificacion-donacion-userorg-2"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarte que recibimos correctamente su "
+"solicitud para hacer una donación a Reevo. A continuación les indicamos los "
+"datos de la cuenta a donde realizar la transferencia bancaria:\n"
+"\n"
+"Banco: Banco de la Nación Argentina\n"
+"Sucursal: 1250 - Burzaco\n"
+"Titular: Redes de Pares Asociación Civil\n"
+"Tipo: Cuenta Corriente Especial en Pesos\n"
+"N° de cuenta: 6140503757\n"
+"C.B.U.: 01106141-40061405037576\n"
+"SWIFT: NACNARBA\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"  * Representante: %s \n"
+"\n"
+"Después de realizar la transferencia envíenos el comprobante de la misma a "
+"esta misma casilla de correo.\n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:546
+#, php-format
+msgid "email-notificacion-donacion-userorg-rep-2"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de donación colectiva a nombre de %s, de la cual tu eres "
+"represenante. Este mismo correo fue enviado al e-mail de tu organización. A "
+"continuación te indicamos los datos de la cuenta a donde realizar la "
+"transferencia bancaria:\n"
+"\n"
+"Banco: Banco de la Nación Argentina\n"
+"Sucursal: 1250 - Burzaco\n"
+"Titular: Redes de Pares Asociación Civil\n"
+"Tipo: Cuenta Corriente Especial en Pesos\n"
+"N° de cuenta: 6140503757\n"
+"C.B.U.: 01106141-40061405037576\n"
+"SWIFT: NACNARBA\n"
+"\n"
+"Los siguientes son los datos de tu membresía:\n"
+"  * Monto: u$d %s \n"
+"  * Medio de pago: %s \n"
+"\n"
+"Después de realizar la transferencia envíenos el comprobante de la misma a "
+"esta misma casilla de correo.\n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:542
+#, php-format
+msgid "email-notificacion-donacion-user-3"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud para hacer una donación a Reevo. Al momento de pagar elegiste hacerlo por Paypal. Si por algun motivo no pudiste completarlo de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/paypal.php?val=%s&tipo=donacion\n"
+"\n"
+"Agradecemos mucho tu interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:545
+#, php-format
+msgid "email-notificacion-donacion-userorg-3"
+msgstr ""
+"Hola amigxs de %s,\n"
+"les enviamos este correo para informarte que recibimos correctamente su "
+"solicitud para hacer una donación a Reevo. Al momento de pagar elegiste hacerlo por Paypal. Si por algun momento no pudiste completar el proceso de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/paypal.php?val=%s&tipo=donacion\n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:546
+#, php-format
+msgid "email-notificacion-donacion-userorg-rep-3"
+msgstr ""
+"Hola %s,\n"
+"te enviamos este correo para informarte que recibimos correctamente tu "
+"solicitud de donación colectiva a nombre de %s, de la cual tu eres "
+"represenante. Este mismo correo fue enviado al e-mail de tu organización."
+"Al momento de pagar elegiste hacerlo por Paypal. Si por algun momento no pudiste completar el proceso de pago, usa el siguiente enlace para completarlo: https://donar.reevo.org/paypal.php?val=%s&tipo=donacion\n"
+"\n"
+"Agradecemos mucho su interés en apoyar nuestro trabajo y seguir haciendo "
+"posible la Red de Educación Alternativa de Iberoamérica.\n"
+"\n"
+"Saludos cordiales del Equipo de Reevo."
+
+#: funciones.php:557 funciones.php:584
+#, php-format
+msgid "¡Gracias por tu donación!"
+msgstr "¡Gracias por tu donación!"
+
+#: funciones.php:586
+#, php-format
+msgid "¡Gracias por su donación!"
+msgstr "¡Gracias por su donación!"
+
+#: index.php:57 form.php:17
+#, php-format
+msgid "Reevo: Tejiendo alternativas en educación"
+msgstr "Reevo: Tejiendo alternativas en educación"
+
+#: index.php:78
+#, php-format
+msgid ""
+"Campaña de financiamiento colectivo 2017 de Reevo: Tejiendo alternativas en "
+"educación"
+msgstr ""
+"Campaña de financiamiento colectivo 2017 de Reevo: Tejiendo alternativas en "
+"educación"
+
+#: index.php:79
+#, php-format
+msgid ""
+"Hazte miembro de Reevo y con tu aporte mensual nos permitirás seguir "
+"tejiendo redes entornos a la Educación Alternativa..."
+msgstr ""
+"Hazte miembro de Reevo y con tu aporte mensual nos permitirás seguir "
+"tejiendo redes entornos a la Educación Alternativa..."
+
+#: index.php:106 form.php:69
+#, php-format
+msgid "Este valor no es válido"
+msgstr "Este valor no es válido"
+
+#: index.php:116 index.php:131 form.php:208
+#, php-format
+msgid "No puede estar vacío"
+msgstr "No puede estar vacío"
+
+#: index.php:119 index.php:134
+#, php-format
+msgid "Sólo se aceptan dígitos"
+msgstr "Sólo se aceptan dígitos"
+
+#: index.php:124
+#, php-format
+msgid "El valor debe ser mayor a 50."
+msgstr "El valor debe ser mayor a 50."
+
+#: index.php:139
+#, php-format
+msgid "El valor debe ser mayor a 200."
+msgstr "El valor debe ser mayor a 200."
+
+#: index.php:211
+#, php-format
+msgid "Campaña de financiamiento colectivo 2017 de Reevo"
+msgstr "Campaña de financiamiento colectivo 2017 de Reevo"
+
+#: index.php:211
+#, php-format
+msgid "Tejiendo alternativas en educación"
+msgstr "Tejiendo alternativas en educación"
+
+#: index.php:216
+#, php-format
+msgid "Facilitamos el encuentro"
+msgstr "Facilitamos el encuentro"
+
+#: index.php:217
+#, php-format
+msgid ""
+"Propiciamos encuentros para intercambiar y producir conocimientos de forma "
+"colectiva."
+msgstr ""
+"Propiciamos encuentros para intercambiar y producir conocimientos de forma "
+"colectiva."
+
+#: index.php:221
+#, php-format
+msgid "Hablamos al mundo"
+msgstr "Hablamos al mundo"
+
+#: index.php:222
+#, php-format
+msgid ""
+"Producimos contenidos originales, divulgamos noticias y estudiamos el "
+"desarrollo de las alternativas en la educación."
+msgstr ""
+"Producimos contenidos originales, divulgamos noticias y estudiamos el "
+"desarrollo de las alternativas en la educación."
+
+#: index.php:226
+#, php-format
+msgid "Conectamos los puntos"
+msgstr "Conectamos los puntos"
+
+#: index.php:227
+#, php-format
+msgid ""
+"Creamos redes de apoyo, asesoramiento, investigación y acción entre "
+"proyectos educativos, individuos y colectivos."
+msgstr ""
+"Creamos redes de apoyo, asesoramiento, investigación y acción entre "
+"proyectos educativos, individuos y colectivos."
+
+#: index.php:232
+#, php-format
+msgid ""
+"Desde el 2009, con la realización del film documental <b>\"La Educación "
+"Prohibida\"</b> y luego, a partir de 2012, iniciamos <b>Reevo</b> y nos "
+"dedicamos a conocer, investigar y promover experiencias educativas "
+"alternativas en Ibeoramérica y el mundo."
+msgstr ""
+"Desde el 2009, con la realización del film documental <b>\"La Educación "
+"Prohibida\"</b> y luego, a partir de 2012, iniciamos <b>Reevo</b> y nos "
+"dedicamos a conocer, investigar y promover experiencias educativas "
+"alternativas en Ibeoramérica y el mundo."
+
+#: index.php:234
+#, php-format
+msgid "Mostrar más"
+msgstr "Mostrar más"
+
+#: index.php:237
+#, php-format
+msgid ""
+"Nos proponemos tejer vínculos de intercambio a través de encuentros "
+"territoriales y virtuales, así como espacios de formación y aprendizaje que "
+"sean abiertos y gratuitos; producimos contenidos libres desde una mirada "
+"crítica y proactiva; fomentamos la acción social y colectiva para promover "
+"transformaciones en educación a diversas escalas.</p><p>Buscamos construir "
+"una red de personas que se aleje de los modelos convencionales, conformando "
+"equipos y espacios de trabajo autónomos no coercitivos o jerárquicos. "
+"Hacemos Reevo porque consideramos necesaria su existencia, pero también "
+"porque lo disfrutamos.</p>"
+msgstr ""
+"Nos proponemos tejer vínculos de intercambio a través de encuentros "
+"territoriales y virtuales, así como espacios de formación y aprendizaje que "
+"sean abiertos y gratuitos; producimos contenidos libres desde una mirada "
+"crítica y proactiva; fomentamos la acción social y colectiva para promover "
+"transformaciones en educación a diversas escalas.</p><p>Buscamos construir "
+"una red de personas que se aleje de los modelos convencionales, conformando "
+"equipos y espacios de trabajo autónomos no coercitivos o jerárquicos. "
+"Hacemos Reevo porque consideramos necesaria su existencia, pero también "
+"porque lo disfrutamos.</p>"
+
+#: index.php:252
+#, php-format
+msgid ""
+"La educacion no cambia el mundo, <br/>cambia a las personas que van a "
+"cambiar el mundo.<span>Paulo Freire</span>"
+msgstr ""
+"La educacion no cambia el mundo, <br/>cambia a las personas que van a "
+"cambiar el mundo.<span>Paulo Freire</span>"
+
+#: index.php:267 index.php:334
+#, php-format
+msgid "Membresía"
+msgstr "Membresía"
+
+#: index.php:267 form.php:461
+#, php-format
+msgid "Individual"
+msgstr "Individual"
+
+#: index.php:274
+#, php-format
+msgid "Para amigos, educadores y activistas."
+msgstr "Para amigos, educadores y activistas."
+
+#: index.php:280
+#, php-format
+msgid "Monto"
+msgstr "Monto"
+
+#: index.php:282 form.php:415
+#, php-format
+msgid ""
+"Estarás apoyando el sostenimiento diario de las herramientas de Reevo (la "
+"red social, el mapa, la difusión en redes)"
+msgstr ""
+"Estarás apoyando el sostenimiento diario de las herramientas de Reevo (la "
+"red social, el mapa, la difusión en redes)"
+
+#: index.php:282 form.php:415
+#, php-format
+msgid "Con u$d 5 mensuales"
+msgstr "Con u$d 5 mensuales"
+
+#: index.php:285 form.php:418
+#, php-format
+msgid ""
+"Estarás contribuyendo con el desarrollo de contenidos en la Revista de Reevo "
+"y nuevas funcionalidades en nuestras herramientas."
+msgstr ""
+"Estarás contribuyendo con el desarrollo de contenidos en la Revista de Reevo "
+"y nuevas funcionalidades en nuestras herramientas."
+
+#: index.php:285 index.php:350 form.php:418
+#, php-format
+msgid "Con u$d 10 mensuales"
+msgstr "Con u$d 10 mensuales"
+
+#: index.php:288 index.php:353 form.php:421
+#, php-format
+msgid ""
+"Estarás apoyando la organización de eventos abiertos y gratuitos, y el "
+"abordaje de nuevas lineas de investigación."
+msgstr ""
+"Estarás apoyando la organización de eventos abiertos y gratuitos, y el "
+"abordaje de nuevas lineas de investigación."
+
+#: index.php:291 index.php:356 form.php:424
+#, php-format
+msgid ""
+"Estarás contribuyendo significativamente con el crecimiento de nuestro "
+"equipo dedicado de trabajo y el desarrollo de proyectos/acciones de "
+"incidencia en la realidad diaria de proyectos educativos alternativos."
+msgstr ""
+"Estarás contribuyendo significativamente con el crecimiento de nuestro "
+"equipo dedicado de trabajo y el desarrollo de proyectos/acciones de "
+"incidencia en la realidad diaria de proyectos educativos alternativos."
+
+#: index.php:291 form.php:424
+#, php-format
+msgid "Con u$d 50 mensuales"
+msgstr "Con u$d 50 mensuales"
+
+#: index.php:295 index.php:360 form.php:428
+#, php-format
+msgid "+ Mas"
+msgstr "+ Mas"
+
+#: index.php:300 index.php:365
+#, php-format
+msgid "Donar"
+msgstr "Donar"
+
+#: index.php:307 index.php:372 form.php:433
+#, php-format
+msgid "Ingresa otro valor"
+msgstr "Ingresa otro valor"
+
+#: index.php:318 index.php:383
+#, php-format
+msgid "Beneficios"
+msgstr "Beneficios"
+
+#: index.php:320 index.php:385
+#, php-format
+msgid ""
+"Recibirás novedades y actualizaciones de forma regular sobre el desarrollo "
+"del proyecto."
+msgstr ""
+"Recibirás novedades y actualizaciones de forma regular sobre el desarrollo "
+"del proyecto."
+
+#: index.php:320 index.php:385
+#, php-format
+msgid "Reportes periódicos"
+msgstr "Reportes periódicos"
+
+#: index.php:320
+#, php-format
+msgid "Reportes"
+msgstr "Reportes"
+
+#: index.php:321
+#, php-format
+msgid ""
+"Tendras acceso a nuestras producciones de forma anticipada en diversos "
+"soportes."
+msgstr ""
+"Tendras acceso a nuestras producciones de forma anticipada en diversos "
+"soportes."
+
+#: index.php:321 index.php:386
+#, php-format
+msgid "Contenidos anticipados"
+msgstr "Contenidos anticipados"
+
+#: index.php:322 index.php:387
+#, php-format
+msgid ""
+"Asesoramiento y apoyo directo de parte de referentes de educación "
+"alternativa de diversas partes del mundo."
+msgstr ""
+"Asesoramiento y apoyo directo de parte de referentes de educación "
+"alternativa de diversas partes del mundo."
+
+#: index.php:322
+#, php-format
+msgid "Asesoramiento de expertos"
+msgstr "Asesoramiento de expertos"
+
+#: index.php:322 index.php:387
+#, php-format
+msgid "Asesoramiento"
+msgstr "Asesoramiento"
+
+#: index.php:334
+#, php-format
+msgid "Colectiva"
+msgstr "Colectiva"
+
+#: index.php:342
+#, php-format
+msgid ""
+"Para proyectos educativos, instituciones, colectivos, grupos, organizaciones "
+"sociales."
+msgstr ""
+"Para proyectos educativos, instituciones, colectivos, grupos, organizaciones "
+"sociales."
+
+#: index.php:348
+#, php-format
+msgid "MONTO"
+msgstr "MONTO"
+
+#: index.php:350
+#, php-format
+msgid ""
+"Estarás apoyando el sostenimiento diario de las herramientas de Reevo (la "
+"red social, el mapa, la difusión en redes) y contribuyendo con el desarrollo "
+"de contenidos en la Revista de Reevo y nuevas funcionalidades en nuestras "
+"herramientas."
+msgstr ""
+"Estarás apoyando el sostenimiento diario de las herramientas de Reevo (la "
+"red social, el mapa, la difusión en redes) y contribuyendo con el desarrollo "
+"de contenidos en la Revista de Reevo y nuevas funcionalidades en nuestras "
+"herramientas."
+
+#: index.php:353
+#, php-format
+msgid "Con u$d 20 mensuales"
+msgstr "Con u$d 20 mensuales"
+
+#: index.php:386
+#, php-format
+msgid ""
+"Tendrás acceso a nuestras producciones de forma anticipada en diversos "
+"soportes."
+msgstr ""
+"Tendrás acceso a nuestras producciones de forma anticipada en diversos "
+"soportes."
+
+#: index.php:388
+#, php-format
+msgid ""
+"El proyecto tendrá un registro destacado como miembro en el Mapa de Reevo."
+msgstr ""
+"El proyecto tendrá un registro destacado como miembro en el Mapa de Reevo."
+
+#: index.php:388
+#, php-format
+msgid "Reconocimiento"
+msgstr "Reconocimiento"
+
+#: index.php:418
+#, php-format
+msgid "Presupuesto 2017"
+msgstr "Presupuesto 2017"
+
+#: index.php:425
+#, php-format
+msgid ""
+"Acciones concretas para lograr los diferentes objetivos en una escala "
+"territorial. Organización y participación de eventos y encuentros, "
+"sistematización de talleres y materiales de formación, apoyo, acompañamiento "
+"y articulación de proyectos educativos."
+msgstr ""
+"Acciones concretas para lograr los diferentes objetivos en una escala "
+"territorial. Organización y participación de eventos y encuentros, "
+"sistematización de talleres y materiales de formación, apoyo, acompañamiento "
+"y articulación de proyectos educativos."
+
+#: index.php:425 index.php:429 index.php:433 index.php:437 index.php:441
+#, php-format
+msgid "anuales"
+msgstr "anuales"
+
+#: index.php:425
+#, php-format
+msgid "Activismo"
+msgstr "Activismo"
+
+#: index.php:429
+#, php-format
+msgid ""
+"Desarrollo y sostenimiento de estrategias y dispositivos de comunicación del "
+"proyecto: la edición de la Revista Digital, divulgación redes sociales, "
+"producción audiovisual, identidad gráfica y envios masivos."
+msgstr ""
+"Desarrollo y sostenimiento de estrategias y dispositivos de comunicación del "
+"proyecto: la edición de la Revista Digital, divulgación redes sociales, "
+"producción audiovisual, identidad gráfica y envios masivos."
+
+#: index.php:429
+#, php-format
+msgid "Comunicación"
+msgstr "Comunicación"
+
+#: index.php:433
+#, php-format
+msgid ""
+"Seguimiento de novedades editoriales, producción de conocimientos, cuidado "
+"del mapeo colectivo y planificación del centro de contenidos, además de "
+"iniciativas vinculadas con el campo académico-científico."
+msgstr ""
+"Seguimiento de novedades editoriales, producción de conocimientos, cuidado "
+"del mapeo colectivo y planificación del centro de contenidos, además de "
+"iniciativas vinculadas con el campo académico-científico."
+
+#: index.php:433
+#, php-format
+msgid "Investigación"
+msgstr "Investigación"
+
+#: index.php:437
+#, php-format
+msgid ""
+"Mantenimiento y desarrollo de herramientas virtuales, tanto el pago de "
+"servicios y administración de la infraestructura tecnológica como el "
+"desarrollo de nuevas herramientas de software."
+msgstr ""
+"Mantenimiento y desarrollo de herramientas virtuales, tanto el pago de "
+"servicios y administración de la infraestructura tecnológica como el "
+"desarrollo de nuevas herramientas de software."
+
+#: index.php:437
+#, php-format
+msgid "Desarrollo Web"
+msgstr "Desarrollo Web"
+
+#: index.php:441
+#, php-format
+msgid ""
+"Administración y diseño de herramientas para la generación de estrategias y "
+"proyectos que permitan la obtención de recursos, así como los gastos "
+"administrativos e impositivos de la organización."
+msgstr ""
+"Administración y diseño de herramientas para la generación de estrategias y "
+"proyectos que permitan la obtención de recursos, así como los gastos "
+"administrativos e impositivos de la organización."
+
+#: index.php:441
+#, php-format
+msgid "Financiamiento"
+msgstr "Financiamiento"
+
+#: index.php:457
+#, php-format
+msgid "Últimos Miembros"
+msgstr "Últimos Miembros"
+
+#: index.php:501
+#, php-format
+msgid "Ver listado completo"
+msgstr "Ver listado completo"
+
+#: index.php:537
+#, php-format
+msgid "Todos nuestros miembros"
+msgstr "Todos nuestros miembros"
+
+#: index.php:541
+#, php-format
+msgid "Individuos"
+msgstr "Individuos"
+
+#: index.php:545
+#, php-format
+msgid "Colectivos"
+msgstr "Colectivos"
+
+#: index.php:550
+#, php-format
+msgid "Cerrar"
+msgstr "Cerrar"
+
+#: form.php:85 form.php:97 form.php:104 form.php:116 form.php:131 form.php:141
+#: form.php:152 form.php:164 form.php:171 form.php:183 form.php:198
+#: form.php:216
+#, php-format
+msgid "Debe completar este campo"
+msgstr "Debe completar este campo"
+
+#: form.php:90 form.php:157
+#, php-format
+msgid "Este campo debe tener entre 6 y 96 carácteres"
+msgstr "Este campo debe tener entre 6 y 96 carácteres"
+
+#: form.php:109 form.php:176
+#, php-format
+msgid "Este campo debe tener entre 3 y 9 carácteres"
+msgstr "Este campo debe tener entre 3 y 9 carácteres"
+
+#: form.php:119 form.php:186
+#, php-format
+msgid "El ingresado no es un e-mail válido"
+msgstr "El ingresado no es un e-mail válido"
+
+#: form.php:124 form.php:191
+#, php-format
+msgid "Este campo debe tener entre 6 y 65 carácteres"
+msgstr "Este campo debe tener entre 6 y 65 carácteres"
+
+#: form.php:134 form.php:201
+#, php-format
+msgid "Solo se aceptan dígitos"
+msgstr "Solo se aceptan dígitos"
+
+#: form.php:145
+#, php-format
+msgid "La fecha ingresada no es válida, debe estar en el formato MM/DD/AAAA"
+msgstr "La fecha ingresada no es válida, debe estar en el formato MM/DD/AAAA"
+
+#: form.php:219
+#, php-format
+msgid "El número de tarjeta ingresado no es válido"
+msgstr "El número de tarjeta ingresado no es válido"
+
+#: form.php:375
+#, php-format
+msgid "gracias-membresia"
+msgstr "<h1>¡Gracias por tu apoyo!</h1><p>Hemos recibido tu solicitud de membresía. En algunos días la misma será procesada por nuestro sistema de cobro mediante tarjetas de crédito y te informaremos al respecto.</p><p>¿Tienes alguna pregunta o consulta?.</p> <p><a href=\"http://reevo.org/contacto\" class=\"btn btn-primary btn-lg\" role=\"button\">¡Escríbenos ahora!</a></p>"
+
+#: form.php:378
+#, php-format
+msgid "gracias-donacion"
+msgstr "<h1>¡Gracias por tu apoyo!</h1><p>Hemos recibido correctamente la información de tu donación. En algunos días la misma será procesada por nuestro sistema de cobro mediante tarjetas de crédito y te informaremos al respecto.</p><p>¿Tienes alguna pregunta o consulta?.</p> <p><a href=\"http://reevo.org/contacto\" class=\"btn btn-primary btn-lg\" role=\"button\">¡Escríbenos ahora!</a></p>"
+
+#: form.php:395
+#, php-format
+msgid "JavaScript no está habilitado!"
+msgstr "JavaScript no está habilitado!"
+
+#: form.php:396
+#, php-format
+msgid ""
+"Este formulario de donaciones require que tenga activado JavaScript en su "
+"navegador. Activelo y recargue esta página. Revisa <a href=\"http://enable-"
+"javascript.com\" target=\"_blank\">este sitio</a> para saber cómo hacerlo."
+msgstr ""
+"Este formulario de donaciones require que tenga activado JavaScript en su "
+"navegador. Activelo y recargue esta página. Revisa <a href=\"http://enable-"
+"javascript.com\" target=\"_blank\">este sitio</a> para saber cómo hacerlo."
+
+#: form.php:408
+#, php-format
+msgid "Su donación a Reevo"
+msgstr "Su donación a Reevo"
+
+#: form.php:409
+#, php-format
+msgid "Texto extra"
+msgstr "Texto extra"
+
+#: form.php:413
+#, php-format
+msgid "Quiero donar"
+msgstr "Quiero donar"
+
+#: form.php:445
+#, php-format
+msgid "De forma"
+msgstr "De forma"
+
+#: form.php:447
+#, php-format
+msgid ""
+"Se debitará el monto todos los meses, puedes cancelarlo cuando lo desees."
+msgstr ""
+"Se debitará el monto todos los meses, puedes cancelarlo cuando lo desees."
+
+#: form.php:450
+#, php-format
+msgid "Donar una sola vez"
+msgstr "Donar una sola vez"
+
+#: form.php:458
+#, php-format
+msgid "A título"
+msgstr "A título"
+
+#: form.php:460
+#, php-format
+msgid "La donación es a título personal."
+msgstr "La donación es a título personal."
+
+#: form.php:463
+#, php-format
+msgid "La donación es en nombre de un proyecto o institución"
+msgstr "La donación es en nombre de un proyecto o institución"
+
+#: form.php:464
+#, php-format
+msgid "Colectivo"
+msgstr "Colectivo"
+
+#: form.php:474
+#, php-format
+msgid "Datos del proyecto"
+msgstr "Datos del proyecto"
+
+#: form.php:477 form.php:479
+#, php-format
+msgid "Nombre del Proyecto"
+msgstr "Nombre del Proyecto"
+
+#: form.php:485 form.php:616
+#, php-format
+msgid "Correo electrónico"
+msgstr "Correo electrónico"
+
+#: form.php:487
+#, php-format
+msgid "E-mail del proyecto"
+msgstr "E-mail del proyecto"
+
+#: form.php:493 form.php:625
+#, php-format
+msgid "Teléfono"
+msgstr "Teléfono"
+
+#: form.php:495 form.php:627
+#, php-format
+msgid "Sin espacios"
+msgstr "Sin espacios"
+
+#: form.php:501 form.php:633
+#, php-format
+msgid "País"
+msgstr "País"
+
+#: form.php:512 form.php:644
+#, php-format
+msgid "Estado / Provincia"
+msgstr "Estado / Provincia"
+
+#: form.php:521 form.php:523 form.php:653 form.php:655
+#, php-format
+msgid "Ciudad"
+msgstr "Ciudad"
+
+#: form.php:529 form.php:661
+#, php-format
+msgid "Calle"
+msgstr "Calle"
+
+#: form.php:531 form.php:663
+#, php-format
+msgid "Incluya también númeración y otros detalles"
+msgstr "Incluya también númeración y otros detalles"
+
+#: form.php:538 form.php:540 form.php:670 form.php:672
+#, php-format
+msgid "Código Postal"
+msgstr "Código Postal"
+
+#: form.php:553
+#, php-format
+msgid "Sus datos personales"
+msgstr "Sus datos personales"
+
+#: form.php:555
+#, php-format
+msgid "Datos del Representante"
+msgstr "Datos del Representante"
+
+#: form.php:559 form.php:561
+#, php-format
+msgid "Nombre"
+msgstr "Nombre"
+
+#: form.php:567 form.php:569
+#, php-format
+msgid "Apellido"
+msgstr "Apellido"
+
+#: form.php:575
+#, php-format
+msgid "Género"
+msgstr "Género"
+
+#: form.php:578
+#, php-format
+msgid "Mujer"
+msgstr "Mujer"
+
+#: form.php:579
+#, php-format
+msgid "Varón"
+msgstr "Varón"
+
+#: form.php:580
+#, php-format
+msgid "Otro"
+msgstr "Otro"
+
+#: form.php:587
+#, php-format
+msgid "Fecha de nacimiento"
+msgstr "Fecha de nacimiento"
+
+#: form.php:608
+#, php-format
+msgid "N° Identidad / Pasaporte"
+msgstr "N° Identidad / Pasaporte"
+
+#: form.php:618
+#, php-format
+msgid "Tu e-mail"
+msgstr "Tu e-mail"
+
+#: form.php:680
+#, php-format
+msgid "Datos sobre el pago"
+msgstr "Datos sobre el pago"
+
+#: form.php:685
+#, php-format
+msgid "Medio de pago"
+msgstr "Medio de pago"
+
+#: form.php:688
+#, php-format
+msgid "Tarjeta de crédito"
+msgstr "Tarjeta de crédito"
+
+#: form.php:700
+#, php-format
+msgid "Tipo de tarjeta"
+msgstr "Tipo de tarjeta"
+
+#: form.php:703
+#, php-format
+msgid "VISA"
+msgstr "VISA"
+
+#: form.php:704
+#, php-format
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: form.php:710
+#, php-format
+msgid "Número de tarjeta de crédito"
+msgstr "Número de tarjeta de crédito"
+
+#: form.php:712
+#, php-format
+msgid "Sólo números"
+msgstr "Sólo números"
+
+#: form.php:720
+#, php-format
+msgid ""
+"<b>Puedes dejar tus datos con confianza.</b> Esta página contiene un "
+"formulario seguro. La información suministrada viaja de forma encriptada a "
+"través de la red."
+msgstr ""
+"<b>Puedes dejar tus datos con confianza.</b> Esta página contiene un "
+"formulario seguro. La información suministrada viaja de forma encriptada a "
+"través de la red."
+
+msgid "<b>Pago por Paypal:</b> Puedes pagar con cualquier tarjeta de crédito o con saldo de tu cuenta de Paypal si ya tienes una. Serás redirigido a Paypal para completar el pago."
+msgstr "<b>Pago por Paypal:</b> Puedes pagar con cualquier tarjeta de crédito o con saldo de tu cuenta de Paypal si ya tienes una. Serás redirigido a Paypal para completar el pago."
+
+msgid "<b>Pago por MercadoPago:</b> Puedes pagar con cualquier tarjeta de crédito o con saldo de tu cuenta de MercadoPago si ya tienes una. Serás redirigido a MercadoPago para completar el pago."
+msgstr "<b>Pago por MercadoPago:</b> Puedes pagar con cualquier tarjeta de crédito o con saldo de tu cuenta de Paypal si ya tienes una. Serás redirigido a Paypal para completar el pago."
+
+
+#: form.php:735
+#, php-format
+msgid ""
+"Te enviaremos la información de la cuenta bancaria a tu correo electrónico."
+msgstr ""
+"Te enviaremos la información de la cuenta bancaria a tu correo electrónico."
+
+#: form.php:746
+#, php-format
+msgid ""
+"<b>Importante:</b> Ten en cuenta que, debido a los costos administrativos, "
+"esta opción sólo es válida para realizar el depósito o tranferencia del "
+"monto total anual de la membresía."
+msgstr ""
+"<b>Importante:</b> Ten en cuenta que, debido a los costos administrativos, "
+"esta opción sólo es válida para realizar el depósito o tranferencia del "
+"monto total anual de la membresía."
+
+#: form.php:757
+#, php-format
+msgid "Enviar mi solicitud ahora"
+msgstr "Enviar mi solicitud ahora"
+
+msgid "Teléfono personal"
+msgstr "Teléfono personal"
+
+msgid "Preferentemente un móvil o celular"
+msgstr "Preferentemente un móvil o celular"
+
+msgid "¡ERROR! El correo electrónico de la organización debe ser diferente al de su representante."
+msgstr "¡ERROR! El correo electrónico de la organización debe ser diferente al de su representante."
+
+msgid "El número ingresado no es válido, asegurate de seleccionar correctamente el país y respetar el formato indicado"
+msgstr "El número ingresado no es válido, asegurate de seleccionar correctamente el país y respetar el formato indicado"
