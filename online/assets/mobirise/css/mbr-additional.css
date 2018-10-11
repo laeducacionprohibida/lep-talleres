@@ -1759,13 +1759,25 @@ body {
 .cid-r5QOhcxmyS .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-r5WJVZ0GtY {
-<<<<<<< HEAD
-=======
-  padding-top: 135px;
-  padding-bottom: 60px;
->>>>>>> 0a65351ff7ded93bf67aa72d1d10b7b64d5f7c3e
-  background-image: url("../../../assets/images/fondo2-2-1800x1200.png");
+.cid-r6bCG9EImI {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background-black-blackboard-159770-2000x1333.jpg");
+}
+@media (min-width: 992px) {
+  .cid-r6bCG9EImI .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r6bCG9EImI .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-r6bCG9EImI .mbr-text {
+    text-align: center;
+  }
 }
 .cid-r5WLts7R6w {
   background: #227f56;
