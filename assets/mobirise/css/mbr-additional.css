@@ -36,10 +36,10 @@ body {
 }
 .display-5 {
   font-family: 'Dense-Regular';
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.56rem;
+  font-size: 2.88rem;
 }
 .display-7 {
   font-family: 'YanoneKaffeesatz-Light';
@@ -70,9 +70,9 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1370,6 +1370,21 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
+.cid-r6osCpltVT {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background-black-blackboard-159770-2000x1333.jpg");
+}
+@media (min-width: 992px) {
+  .cid-r6osCpltVT .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-r6osCpltVT .mbr-figure {
+    padding-top: 3rem;
+  }
+}
 .cid-r5QOhcxmyS .navbar {
   padding: .5rem 0;
   background: #000000;
@@ -1768,7 +1783,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-r6gtZC47NH {
-  padding-top: 120px;
+  padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
 }
