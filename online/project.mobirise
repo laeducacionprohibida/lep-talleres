@@ -60,7 +60,9 @@
     "versionPublish": "4.8.4",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
     "noImageResize": "",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/german/Documents/GitHub/lep-talleres/online"
   },
   "pages": {
     "index.html": {
